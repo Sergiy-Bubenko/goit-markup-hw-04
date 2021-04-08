@@ -480,7 +480,7 @@ ul {
 }
 
 .address-footer {
-  display: flex;
+  margin-right: 70px;
 }
 
 .address-footer-list {
@@ -498,7 +498,7 @@ ul {
 }
 
 .address-footer-contacts {
-  margin-right: 70px;
+  display: flex;
 }
 
 .footer-contacts-title {
