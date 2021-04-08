@@ -277,9 +277,10 @@ ul {
 }
 
 .what-we-do-title,
-.our-team-title {
+.our-team-title,
+.regular-customers-title {
   margin-bottom: 50px;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -429,6 +430,28 @@ ul {
   margin-bottom: 0;
 }
 
+/* Постоянные клиенты */
+.regular-customers-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.regular-customers-link {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--icon-color-one);
+  border: 1px solid var(--icon-color-one);
+  border-radius: 4px;
+}
+
+.regular-customers-link:focus,
+.regular-customers-link:hover {
+  fill: var(--third-text-color);
+  border: 1px solid var(--third-text-color);
+}
 /* подвал */
 
 .secondary-font {
@@ -510,33 +533,3 @@ ul {
   fill: var(--main-white-color);
   background-color: var(--third-text-color);
 }
-
-/* отладка мардженов */
-
-/* a {
-  outline: 1px solid tomato;
-}
-
-ul {
-  outline: 1px solid green;
-} */
-
-/* li {
-  background-color: red;
-}
-
-ul {
-  background-color: rgb(240, 206, 143);
-}
-
-nav {
-  background-color: greenyellow;
-}
-
-div {
-  background-color: blue;
-}
-
-header {
-  background-color: gray;
-} */
