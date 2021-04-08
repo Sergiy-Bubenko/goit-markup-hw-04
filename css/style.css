@@ -153,8 +153,13 @@ ul {
   color: rgba(134, 134, 134, 0.6);
 }
 
-.icon {
-  background-size: cover;
+.footer-contacts-link {
+  display: flex;
+}
+.icon-nav-up {
+  margin-right: 10px;
+
+  /* background-size: cover; */
 }
 
 /* герой + логотип + подвал */
@@ -184,6 +189,7 @@ ul {
 }
 
 .address-footer {
+  display: flex;
   margin-top: 20px;
 }
 
@@ -246,6 +252,7 @@ ul {
 .button-two:focus {
   background-color: var(--third-text-color);
   color: var(--main-white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-two-collection:not(:last-child) {
@@ -325,10 +332,31 @@ ul {
 }
 
 .our-profession {
-  margin-bottom: 0;
+  margin-bottom: 16px;
+
   color: var(--second-text-color);
   font-size: 16px;
   line-height: 1.2;
+}
+
+.our-team-contact {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.our-team-contact-link {
+  display: inline-block;
+}
+
+.our-team-contact-iteam {
+  height: 44px;
+  width: 44px;
+}
+
+.icon-our-team {
+  /* background-position: 50% 50%; */
 }
 
 .our-team-list {
@@ -341,6 +369,11 @@ ul {
   background-color: var(--main-white-color);
   padding-top: 30px;
   padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-items {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -370,6 +403,7 @@ ul {
 }
 .collection-title-profession {
   border: 1px solid #eeeeee;
+  border-top: inherit;
   background-color: var(--main-white-color);
   padding-top: 20px;
   padding-right: 24px;
@@ -385,6 +419,10 @@ ul {
 .collection-items {
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.collection-items:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .collection-items:nth-child(3n + 3) {
